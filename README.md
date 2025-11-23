@@ -25,11 +25,11 @@ Frequency Modulation (FM) is a method of transmitting information over a carrier
 ```
 import numpy as np
 import matplotlib.pyplot as plt
-Am = 3.4
-Ac = 6.8
-fm = 940
-fc = 9400
-fs = 94000
+Am = 6.6
+Ac = 13.2
+fm = 600
+fc = 6000
+fs = 60000
 t = np.arange(0, 2/fm, 1/fs)
 B = 5.75
 m = Am * np.cos(2 * np.pi * fm * t)
@@ -43,10 +43,12 @@ plt.subplot(3, 1, 3)
 plt.plot(t, efm)
 plt.tight_layout()
 plt.show()
+
 ```
 
 <h3>Output Waveform</h3>
-<img width="1536" height="898" alt="Figure_3" src="https://github.com/user-attachments/assets/cc7738ef-3fc8-4d83-8c5f-45ce5150a9c9" />
+<img width="640" height="480" alt="FM_usingPY" src="https://github.com/user-attachments/assets/3552d4c7-22ce-4686-bdb2-3ceaf33a49d1" />
+
 
 <h3>Result</h3>
 The message signal, carrier signal, and frequency modulated (FM) signal will be displayed in separate plots. The modulated signal will show frequency variations corresponding to the amplitude of the message signal.
