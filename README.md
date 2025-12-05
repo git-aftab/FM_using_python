@@ -49,6 +49,10 @@ plt.show()
 <h3>Output Waveform</h3>
 <img width="640" height="480" alt="FM_usingPY" src="https://github.com/user-attachments/assets/3552d4c7-22ce-4686-bdb2-3ceaf33a49d1" />
 
+<h3>Tabulation</h3>
+
+![WhatsApp Image 2025-12-05 at 11 44 05_6c68b3f8](https://github.com/user-attachments/assets/d2bbeeec-acb0-4dda-b210-a55d1fd8ec35)
+
 
 <h3>Result</h3>
 The message signal, carrier signal, and frequency modulated (FM) signal will be displayed in separate plots. The modulated signal will show frequency variations corresponding to the amplitude of the message signal.
